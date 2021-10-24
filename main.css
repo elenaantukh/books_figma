@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    display: block;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    max-height: 290px;
+    overflow: hidden;
+}
+    .top_menu ul{
+    padding: 0;
+    margin: 0;
+  }
+  .top_menu li{
+      width: auto;
+      height: 60px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .top_menu a{
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    height: 26px;
+    font-size: 20px;
+    font-family: 'Noto+Sans+TC';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    color: #343434;
+    text-align:  center;
+  }
+  .top_menu a:hover {
+    content: "";
+    color: #0000CD;
+}
+  #logo {
+    display: block;
+    width: 75px;
+    height: 100px;
+    float: left;
+    padding: 6px;
+  }
+  div{
+	margin: 0;
+	padding: 30px;
+}
+
+/*main главная страница*/
+.wrap{
+	background: #f9f9f9;
+  width: 100%;
+  height: 650px;
+}
+.div1,
+.div2 {
+	background: #f9f9f9;
+	display: inline-block;
+	height: 650px;
+	margin: 1em;
+	width: 550px;
+}
+.text {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #29497e;
+  text-align: left;
+}
+.content {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6c6c6c;
+  text-align: left;
+}
+.bottom {
+    width: 350px;
+    height: 70px;
+    border-radius: 70px;
+    background: linear-gradient(180deg, rgba(255, 108, 46, 0.92) 23.96%, rgba(255, 199, 0, 0.8) 85.94%);
+    box-shadow: 0px 4px 30px #ff8823;
+    padding: auto;
+    font-family: 'Noto+Sans+TC';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #3a3a3a;
+    text-align: center;
+}
+.bottom:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.69);
+  border-radius: 10px;
+}
+/*main почему покупатели выбирают нас*/
+.layer {
+  background: #f9f9f9;
+  width: 100%;
+  height: 290px;
+}
+.layer h1 {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #26497e;
+  text-align: center;
+  top: 200px;
+}
+.joint {
+  background: #f9f9f9;
+  width: 100%;
+  height: 190px;
+}
+.div3,
+.div4,
+.div5,
+.div6 {
+	background: #f9f9f9;
+	display: inline-block;
+	height: 150px;
+	margin: 1em;
+	width: 245px;
+  font-family: 'Noto+Sans+TC';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #222;
+  text-align: center;
+}
+
+/*main о магазине*/
+.shop {
+  background: #f9f9f9;
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+}
+.shop h2 {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #26497e;
+  text-align: center;
+}
+.inform{
+	background: #f9f9f9;
+  width: 100%;
+  
+}
+.div7,
+.div8 {
+	background: #f9f9f9;
+	display: inline-block;
+	height: auto;
+	margin: 1em;
+	width: 500px;
+}
+.inf {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #515151;
+  text-align: left;
+  padding: 0px;
+}
+
+/*main мы в инстаграмм*/
+.instagram {
+  background: #e5e5e5;
+  width: 100%;
+  height: 650px;
+  padding: 0px;
+  margin: 0;
+}
+.row1 {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.instagram h3 {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3a3a3a;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.spot1 {
+  display: block;
+  position: relative;
+  height: 100px;
+  width: 80px;
+  right: -1180px;
+  top: -20px;
+  transform: -webkin-matrix(-0.97, -0.23, 0,24, -0,97, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+.row2{
+  display: inline-block;
+	background: #e5e5e5;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.spot2 {
+  display: inline-block;
+  position: relative;
+  height: 80px;
+  width: 90px;
+  left: 52px;
+  top: 68%;
+  transform: -webkin-matrix(-0.97, -0.23, 0,24, -0,97, 0, 0);
+  padding: 0;
+  margin: 0;
+  
+}
+.div9,
+.div10,
+.div11 {
+  display: inline-block;
+	background: #e5e5e5;
+	display: inline-block;
+	padding: 0;
+  margin: 10px;
+  height: 280px;
+	width: 320px;
+  
+}
+.btm {
+  width: 350px;
+  height: 70px;
+  border-radius: 70px;
+  background: linear-gradient(180deg, rgba(255, 108, 46, 0.92) 23.96%, rgba(255, 199, 0, 0.8) 85.94%);
+  box-shadow: 0px 4px 30px #ff8823;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Noto+Sans+TC';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #3a3a3a;
+  text-align: center;
+}
+.btm:hover {
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(193, 193, 193, 0.69);
+border-radius: 10px;
+}
+
+/*main партнеры*/
+.partners {
+  position: relative;
+  background: #FFFFFF;
+  width: 100%;
+  height: 400px;
+}
+.partners h4 {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #26497e;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.div12,
+.div13,
+.div14 {
+	background: #FFFFFF;
+	display: inline-block;
+	padding: 0;
+	margin: 20px;
+  height: 100px;
+	width: 280px;
+}
+
+/*main контакты*/
+.contact {
+  position: relative;
+  background: #f7f7f7;
+  width: 100%;
+  height: 450px;
+}
+.div15 {
+	background: #f7f7f7;
+	display: inline-block;
+	padding: 0;
+	margin: 10px;
+  height: 360px;
+	width: 450px;
+}
+.div15 h5 {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #26497e;
+  text-align: left;
+  padding: 0;
+  margin: 10px;
+}
+.phone,
+.adress,
+.time,
+.mail {
+  font-family: 'Noto+Sans+TC';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #343434;
+  text-align: left;
+  padding: 0;
+  margin: 10;
+}
+.div16 {
+	background: #f7f7f7;
+  display: inline-block;
+	padding: 0;
+	margin: 15px;
+  height: 350px;
+	width: 550px;
+
+}
